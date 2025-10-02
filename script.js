@@ -28,6 +28,10 @@ btn.addEventListener("click", () => {
     icon.addEventListener("click", () => {
       Li.remove();
     });
+    
+     Li.addEventListener("click", () => {
+      Li.classList.toggle("completed");
+    });
 
     checkbox.addEventListener("change", () => {
       if (checkbox.checked) {
